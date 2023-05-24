@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Adopción de Gato</title>
+  <link rel="stylesheet" href="stylegato.css">
+  <button class="back-button" onclick="history.back()">Atrás</button>
+</head>
+<body>
+  <h1>Registro de Adopción de perro</h1>
+
+  <form>
+    <label for="precio">Precio del gato:</label>
+    <input type="text" id="precio" name="precio" required>
+
+    <label for="metodo-pago">Método de Pago:</label>
+    <select id="metodo-pago" name="metodo-pago">
+      <option value="efectivo">Efectivo</option>
+      <option value="tarjeta">Tarjeta de Crédito</option>
+      <option value="transferencia">Transferencia Bancaria</option>
+    </select>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="correo">Dirección de Correo:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <input type="submit" value="Registrar">
+  </form>
+</body>
+</html>
